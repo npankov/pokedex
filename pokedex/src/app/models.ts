@@ -1,13 +1,14 @@
-export type Pokemon = {
-    nom: string,
-    numero: string,
-    type: string,
-    description: string,
-    taille: string,
-    poids: string,
-    evolution: string,
-
-
+export class Pokemon {
+  constructor(
+   public nom: string,
+   public numero: string,
+   public type: string,
+   public description: string,
+   public taille: string,
+   public poids: string,
+   public evolution: string,
+   public image: string
+  ) {}
 }
 
 
